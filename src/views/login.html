@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+  <div class="rm-login">
+    <div class="btn btn-primary btn-login" ng-click="rmLoginCtr.login()" ng-show="!rmLoginCtr.isLogged">
+      Sign in
+    </div>
+    <div class="btn btn-logout" ng-show="rmLoginCtr.isLogged"  ng-click="rmLoginCtr.logout()">
+      Sign out
+    </div>
+  </div>
+
+</body>
+</html>
